@@ -41,10 +41,15 @@
     v2.view.backgroundColor = [UIColor redColor];
     UIViewController *v3 = [[UIViewController alloc] init];
     UIViewController *v4 = [[UIViewController alloc] init];
+    v1.tabBarItem.badgeValue = @"1";
+    v2.tabBarItem.badgeValue = @"13";
+    v3.tabBarItem.badgeValue = @"321";
+    v4.tabBarItem.badgeValue = @"12";
     [self initWithController:v1 title:@"微信" tabBarImage:@"tabbar_home" tabBarImageHL:@"tabbar_homeHL"];
     [self initWithController:v2 title:@"通讯录" tabBarImage:@"tabbar_contacts" tabBarImageHL:@"tabbar_contactsHL"];
     [self initWithController:v3 title:@"发现" tabBarImage:@"tabbar_discover" tabBarImageHL:@"tabbar_discoverHL"];
     [self initWithController:v4 title:@"我" tabBarImage:@"tabbar_me" tabBarImageHL:@"tabbar_meHL"];
+    
 }
 
 - (void)initWithController:(UIViewController *)vc

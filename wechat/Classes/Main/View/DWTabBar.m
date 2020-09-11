@@ -53,6 +53,7 @@
         DWTabBarButton *btn = self.buttons[index];
         CGFloat buttonX = index * buttonW;
         btn.frame = CGRectMake(buttonX, 10, buttonW, buttonH);
+        NSLog(@"%f ", self.frame.size.width-btn.frame.size.width-1);
         
         //设置button tag
         btn.tag = index;

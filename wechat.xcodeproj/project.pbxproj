@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0971B883250B27B9004FC3A0 /* DWBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0971B882250B27B9004FC3A0 /* DWBadgeView.m */; };
 		09D81FDC2500C61C004478EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D81FDB2500C61C004478EA /* AppDelegate.m */; };
 		09D81FE22500C61C004478EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D81FE12500C61C004478EA /* ViewController.m */; };
 		09D81FED2500C61E004478EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D81FEC2500C61E004478EA /* main.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0971B881250B27B9004FC3A0 /* DWBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWBadgeView.h; sourceTree = "<group>"; };
+		0971B882250B27B9004FC3A0 /* DWBadgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWBadgeView.m; sourceTree = "<group>"; };
 		09D81FD72500C61C004478EA /* wechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D81FDA2500C61C004478EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09D81FDB2500C61C004478EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -230,6 +233,8 @@
 				09D820212500EF45004478EA /* DWTabBar.m */,
 				09D820232501091D004478EA /* DWTabBarButton.h */,
 				09D820242501091D004478EA /* DWTabBarButton.m */,
+				0971B881250B27B9004FC3A0 /* DWBadgeView.h */,
+				0971B882250B27B9004FC3A0 /* DWBadgeView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -363,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D81FE22500C61C004478EA /* ViewController.m in Sources */,
+				0971B883250B27B9004FC3A0 /* DWBadgeView.m in Sources */,
 				09D81FDC2500C61C004478EA /* AppDelegate.m in Sources */,
 				09D820222500EF45004478EA /* DWTabBar.m in Sources */,
 				09D8201C2500DBDE004478EA /* DWTabBarController.m in Sources */,

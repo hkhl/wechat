@@ -7,7 +7,14 @@
 //
 
 #import "DWTabBarButton.h"
+#import "DWBadgeView.h"
 #define DWTabBarButtonImageRatio 0.6
+#define DWBadgeFont 14.f
+#define DWBadgeX 70
+
+@interface DWTabBarButton()
+@property (nonatomic, strong) DWBadgeView *badgeView;
+@end
 
 @implementation DWTabBarButton
 
@@ -18,6 +25,14 @@
         self.imageView.contentMode = UIViewContentModeCenter;
         self.titleLabel.textAlignment = NSTextAlignmentCenter;
         self.titleLabel.font = [UIFont systemFontOfSize:11.f];
+        
+        //设置badgeView
+        DWBadgeView *badgeView = [[DWBadgeView alloc] initWithFrame:CGRectMake(DWBadgeX, 0, 0, 0)];
+        badgeView.textColor = [UIColor whiteColor];
+        badgeView.bgColor = [UIColor redColor];
+        badgeView.textFont = [UIFont systemFontOfSize:DWBadgeFont];
+        [self addSubview:badgeView];
+        self.badgeView = badgeView;
     }
     return self;
 }
@@ -51,6 +66,10 @@
     //设置图片
     [self setImage:self.tabBarItem.image forState:UIControlStateNormal];
     [self setImage:self.tabBarItem.selectedImage forState:UIControlStateSelected];
+    
+    //设置BadgeView
+    self.badgeView.badgeValue = self.tabBarItem.badgeValue;
+    [self.badgeView sizeToFit];
 }
 
 @end
