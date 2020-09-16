@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0971B883250B27B9004FC3A0 /* DWBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0971B882250B27B9004FC3A0 /* DWBadgeView.m */; };
+		0971B886250B66E4004FC3A0 /* DWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0971B885250B66E4004FC3A0 /* DWHomeViewController.m */; };
+		0971B889250B66FA004FC3A0 /* DWDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0971B888250B66FA004FC3A0 /* DWDiscoverViewController.m */; };
+		0971B88C250B6705004FC3A0 /* DWContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0971B88B250B6705004FC3A0 /* DWContactsViewController.m */; };
+		0971B88F250B6717004FC3A0 /* DWMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0971B88E250B6717004FC3A0 /* DWMineViewController.m */; };
+		0971B89A250FC725004FC3A0 /* DWSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0971B899250FC725004FC3A0 /* DWSearchController.m */; };
 		09D81FDC2500C61C004478EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D81FDB2500C61C004478EA /* AppDelegate.m */; };
 		09D81FE22500C61C004478EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D81FE12500C61C004478EA /* ViewController.m */; };
 		09D81FED2500C61E004478EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D81FEC2500C61E004478EA /* main.m */; };
@@ -40,6 +45,17 @@
 /* Begin PBXFileReference section */
 		0971B881250B27B9004FC3A0 /* DWBadgeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWBadgeView.h; sourceTree = "<group>"; };
 		0971B882250B27B9004FC3A0 /* DWBadgeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWBadgeView.m; sourceTree = "<group>"; };
+		0971B884250B66E4004FC3A0 /* DWHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWHomeViewController.h; sourceTree = "<group>"; };
+		0971B885250B66E4004FC3A0 /* DWHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWHomeViewController.m; sourceTree = "<group>"; };
+		0971B887250B66FA004FC3A0 /* DWDiscoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWDiscoverViewController.h; sourceTree = "<group>"; };
+		0971B888250B66FA004FC3A0 /* DWDiscoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWDiscoverViewController.m; sourceTree = "<group>"; };
+		0971B88A250B6705004FC3A0 /* DWContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWContactsViewController.h; sourceTree = "<group>"; };
+		0971B88B250B6705004FC3A0 /* DWContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWContactsViewController.m; sourceTree = "<group>"; };
+		0971B88D250B6717004FC3A0 /* DWMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWMineViewController.h; sourceTree = "<group>"; };
+		0971B88E250B6717004FC3A0 /* DWMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWMineViewController.m; sourceTree = "<group>"; };
+		0971B898250FC725004FC3A0 /* DWSearchController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWSearchController.h; sourceTree = "<group>"; };
+		0971B899250FC725004FC3A0 /* DWSearchController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWSearchController.m; sourceTree = "<group>"; };
+		0971B89B25112730004FC3A0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		09D81FD72500C61C004478EA /* wechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D81FDA2500C61C004478EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09D81FDB2500C61C004478EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +105,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0971B890250B69BC004FC3A0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0971B884250B66E4004FC3A0 /* DWHomeViewController.h */,
+				0971B885250B66E4004FC3A0 /* DWHomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0971B891250B69C7004FC3A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0971B892250B69CE004FC3A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0971B893250FC640004FC3A0 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0971B894250FC658004FC3A0 /* DWSearchController */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0971B894250FC658004FC3A0 /* DWSearchController */ = {
+			isa = PBXGroup;
+			children = (
+				0971B898250FC725004FC3A0 /* DWSearchController.h */,
+				0971B899250FC725004FC3A0 /* DWSearchController.m */,
+			);
+			path = DWSearchController;
+			sourceTree = "<group>";
+		};
 		09D81FCE2500C61C004478EA = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +197,7 @@
 		09D8200F2500C63A004478EA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0971B893250FC640004FC3A0 /* Search */,
 				09D820162500C7AA004478EA /* Me(我) */,
 				09D820152500C79E004478EA /* Contacts(联系人) */,
 				09D820142500C78E004478EA /* Discover(发现) */,
@@ -156,6 +213,7 @@
 			children = (
 				09D820262502170B004478EA /* Images.xcassets */,
 				09D81FEB2500C61E004478EA /* Info.plist */,
+				0971B89B25112730004FC3A0 /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,6 +241,9 @@
 		09D820132500C772004478EA /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
+				0971B892250B69CE004FC3A0 /* View */,
+				0971B891250B69C7004FC3A0 /* Model */,
+				0971B890250B69BC004FC3A0 /* ViewController */,
 			);
 			path = "Home(首页)";
 			sourceTree = "<group>";
@@ -190,6 +251,8 @@
 		09D820142500C78E004478EA /* Discover(发现) */ = {
 			isa = PBXGroup;
 			children = (
+				0971B887250B66FA004FC3A0 /* DWDiscoverViewController.h */,
+				0971B888250B66FA004FC3A0 /* DWDiscoverViewController.m */,
 			);
 			path = "Discover(发现)";
 			sourceTree = "<group>";
@@ -197,6 +260,8 @@
 		09D820152500C79E004478EA /* Contacts(联系人) */ = {
 			isa = PBXGroup;
 			children = (
+				0971B88A250B6705004FC3A0 /* DWContactsViewController.h */,
+				0971B88B250B6705004FC3A0 /* DWContactsViewController.m */,
 			);
 			path = "Contacts(联系人)";
 			sourceTree = "<group>";
@@ -204,6 +269,8 @@
 		09D820162500C7AA004478EA /* Me(我) */ = {
 			isa = PBXGroup;
 			children = (
+				0971B88D250B6717004FC3A0 /* DWMineViewController.h */,
+				0971B88E250B6717004FC3A0 /* DWMineViewController.m */,
 			);
 			path = "Me(我)";
 			sourceTree = "<group>";
@@ -372,8 +439,13 @@
 				09D81FDC2500C61C004478EA /* AppDelegate.m in Sources */,
 				09D820222500EF45004478EA /* DWTabBar.m in Sources */,
 				09D8201C2500DBDE004478EA /* DWTabBarController.m in Sources */,
+				0971B89A250FC725004FC3A0 /* DWSearchController.m in Sources */,
 				09D81FED2500C61E004478EA /* main.m in Sources */,
+				0971B889250B66FA004FC3A0 /* DWDiscoverViewController.m in Sources */,
 				09D820252501091D004478EA /* DWTabBarButton.m in Sources */,
+				0971B88F250B6717004FC3A0 /* DWMineViewController.m in Sources */,
+				0971B886250B66E4004FC3A0 /* DWHomeViewController.m in Sources */,
+				0971B88C250B6705004FC3A0 /* DWContactsViewController.m in Sources */,
 				09D8201F2500DC25004478EA /* DWNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -525,6 +597,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/wechat/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "wechat/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -541,6 +614,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/wechat/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "wechat/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

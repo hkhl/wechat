@@ -33,6 +33,7 @@
     [barBtn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     //默认点击第一个按钮
     self.selectedButton = self.buttons.firstObject;
+    [self btnClick:self.selectedButton];
 }
 
 - (void)btnClick:(UIButton *)button {

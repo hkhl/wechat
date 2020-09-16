@@ -9,6 +9,10 @@
 #import "DWTabBarController.h"
 #import "DWTabBar.h"
 #import "DWNavigationController.h"
+#import "DWHomeViewController.h"
+#import "DWDiscoverViewController.h"
+#import "DWContactsViewController.h"
+#import "DWMineViewController.h"
 
 @interface DWTabBarController () <DWTabBarDelegate>
 @property (nonatomic, strong) DWTabBar *customTabBar;
@@ -36,11 +40,11 @@
 }
 
 - (void)setupViewController {
-    UIViewController *v1 = [[UIViewController alloc] init];
-    UIViewController *v2 = [[UIViewController alloc] init];
+    DWHomeViewController *v1 = [[DWHomeViewController alloc] init];
+    DWDiscoverViewController *v2 = [[DWDiscoverViewController alloc] init];
     v2.view.backgroundColor = [UIColor redColor];
-    UIViewController *v3 = [[UIViewController alloc] init];
-    UIViewController *v4 = [[UIViewController alloc] init];
+    DWContactsViewController *v3 = [[DWContactsViewController alloc] init];
+    DWMineViewController *v4 = [[DWMineViewController alloc] init];
     v1.tabBarItem.badgeValue = @"1";
     v2.tabBarItem.badgeValue = @"13";
     v3.tabBarItem.badgeValue = @"321";
